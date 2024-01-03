@@ -1,0 +1,5 @@
+Abstraem regras de negocio independentes , tem identidade e estado  , podendo sofrer mutação ao longo do tempo 
+
+Exemplos Account: O passageiro ou motorista pode ter a sua conta bloqueada, a placa do carro modificada, a senha redefinida Ride: Uma corrida pode ter o status em andamento ou finalizada, após ser finalizada o valor da tarifa é atualizado
+
+Como gerar a identidade? Manualmente: O próprio usuário pode gerar a identidade da entidade, por exemplo, utilizando o email ou um documento de identificação Aplicação: A aplicação pode utilizar um algoritmo para gerar a identidade como um gerador de UUID Banco de dados: O banco de dados por meio de uma sequência ou outro tipo de registro, centralizando a geração da identidade Como comparar? A comparação entre entities se dá pela identidade, sem levar em consideração as suas características
